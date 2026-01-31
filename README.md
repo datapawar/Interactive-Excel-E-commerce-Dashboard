@@ -1,3 +1,5 @@
+<img src="https://github.com/datapawar/Interactive-Excel-E-commerce-Dashboard/blob/main/thumbnail%20image..png" width="100%" height="100%">
+
 # Interactive Excel E‑commerce Dashboard
 
 Interactive Excel dashboard built from an e-commerce transactions dataset (Jan–Mar 2025) to track KPIs, trends, customer behavior, delivery performance, geography, and satisfaction. Inspired by Chandoo’s dashboard tutorial: https://www.youtube.com/watch?v=l5qkg8gzY6E
@@ -9,12 +11,32 @@ Interactive Excel dashboard built from an e-commerce transactions dataset (Jan�
 
 ## Business questions this dashboard answers
 - What are our headline KPIs (orders, quantity, revenue, avg rating, avg delivery time)?
-- What is the sales trend over the last 13 weeks?
-- How do customers prefer to buy (Order Mode) and how does that vary by Gender?
-- Which products are most popular, and what does the gender split look like?
-- Which geographies (state/county) contribute the most quantity and revenue?
+  * Total performance (actuals): 2,400 orders and 11,997 units sold, generating 649,019.8 in total sales amount.
+  * Revenue per order is healthy: average order value is ~270.42 (649,019.8 / 2,400), which is a solid AOV benchmark for an ecommerce apparel-style catalog.
+  * Customer experience is strong: average customer rating is 3.96 / 5 (≈4.0), indicating generally positive satisfaction.
+  
 - How fast are we delivering (distribution of Days to Deliver)?
-- How is customer satisfaction trending by month and rating?
+  * Fulfilment speed looks efficient: average delivery time is 2.34 days (≈2.3 days), suggesting fast shipping performance overall.
+  * Basket size is moderate: average units per order is ~5.0 (11,997 units / 2,400 orders), implying customers often buy multiple items per order rather than single-item checkouts.
+
+- How do customers prefer to buy (Order Mode) and how does that vary by Gender?
+  * The App is the #1 channel for every gender (≈35–37% share), so it’s the dominant buying preference overall and within segments.
+  * Website is consistently the #2 channel for Female and Male customers (≈24% share), indicating a strong “web” cohort alongside app-first buyers.
+
+- Which products are most popular, and what does the gender split look like?
+  * The most popular products (by units sold) are T‑Shirts, Jeans, and Sneakers.
+​  * Gender split varies by product type: some are female-skewed (e.g., Graphic Tees, Sundresses), while others are more balanced (e.g., T‑Shirts, Sandals) or male-skewed (Hoodies & Sweatshirts).
+
+- Which geographies (state/county) contribute the most quantity and revenue?
+  * The top 2 counties (Los Angeles + San Diego) contribute ~48% of revenue combined (33.2% + 15.2%), showing a heavy concentration in just two counties.
+
+  ## How this dashboard can help a company
+- **Leadership visibility**: KPIs + trends give quick “health checks” for revenue, volume, delivery speed, and satisfaction.
+- **Channel optimization**: Order Mode insights show where revenue is coming from and which segments are strongest.
+- **Product decisions**: Identifies top-selling products and segment engagement patterns.
+- **Operations improvements**: Delivery-time distribution highlights bottlenecks and sets targets for faster delivery.
+- **Customer experience tracking**: Rating breakdown by month helps monitor satisfaction changes over time.
+- **Territory planning**: Maps highlight high-performing or underperforming regions.
 
 ## Excel components used (and why)
 ### 1) Data preparation (helper columns)
@@ -59,18 +81,6 @@ Slicers were added for:
 - Gender
 
 They were connected across relevant PivotTables using **Report Connections**, so one click filters multiple visuals consistently.
-
-## Example findings (from the tutorial dataset)
-- The dataset covers **Jan–Mar 2025** and is used to compute executive KPIs such as total orders and total revenue.  
-- The tutorial walkthrough example shows **2,400 orders** and **$649,000 revenue** across the 3 months (your numbers may differ if you modified the file).  
-
-## How this dashboard can help a company
-- **Leadership visibility**: KPIs + trends give quick “health checks” for revenue, volume, delivery speed, and satisfaction.
-- **Channel optimization**: Order Mode insights show where revenue is coming from and which segments are strongest.
-- **Product decisions**: Identifies top-selling products and segment engagement patterns.
-- **Operations improvements**: Delivery-time distribution highlights bottlenecks and sets targets for faster delivery.
-- **Customer experience tracking**: Rating breakdown by month helps monitor satisfaction changes over time.
-- **Territory planning**: Maps highlight high-performing or underperforming regions.
 
 ## How to use
 1. Download the Excel file in this repo.
